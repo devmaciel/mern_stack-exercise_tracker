@@ -1,17 +1,18 @@
 ### **MERN Stack**
 
-##### Iniciando
-frontend
+#### Iniciando
+***frontend***
 > npx create-react-app mern-exercise-tracker
 
-backend
+***backend***
 > npm init -y 
 
 <br>
-##### Dependências
 
-frontend
+#### Dependências
 
-backend
+***frontend***
+
+***backend***
 > npm install express cors mongoose dotenv
 > npm install -g nodemon OU npm install nodemon --save-dev
