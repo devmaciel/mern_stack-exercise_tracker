@@ -16,7 +16,7 @@ const userSchema = new Schema({
 });
 
 //Criar tabela 'User' conforme o schema
-const User = moongose.model('User', userSchema);
+const User = mongoose.model('User', userSchema);
 
 //Export
 module.exports = User;

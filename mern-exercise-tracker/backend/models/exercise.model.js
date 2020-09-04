@@ -13,7 +13,7 @@ const exerciseSchema = new Schema({
 });
 
 //Criar tabela 'Exercise' conforme o schema
-const Exercise = moongose.model('Exercise', exerciseSchema);
+const Exercise = mongoose.model('Exercise', exerciseSchema);
 
 //Export
 module.exports = Exercise;

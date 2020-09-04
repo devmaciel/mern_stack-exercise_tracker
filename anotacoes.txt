@@ -47,3 +47,27 @@ and access resources from remote hosts.
 automaticamente quando salvamos algum arquivo.
 
 --------------------------------------------------------------------------------------------
+
+Aqui na aula para testar API, as rotas get/post ele utiliza o insomnia por ser mais simples
+mas fica ai qualquer um pra utilizar, postman/insomnia. abaixo vai ser feito um teste.
+
+//Exemplo para adicionar um usuário.
+POST http://localhost:5000/users/add
+
+    {
+        "username": "jao"
+    }
+
+//Exemplo para mostrar todos usuários, rota index.
+GET http://localhost:5000/users/
+
+//Exemplo do exercise
+POST http://localhost:5000/exercises/add
+    {
+        "username": "dio",
+        "description": "description",
+        "duration": 9,
+        "date": "2020-09-04T21:50:02.643Z"
+    }
+
+--------------------------------------------------------------------------------------------
