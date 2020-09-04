@@ -37,3 +37,13 @@ A Aplicação vai conter:
 -Cada exercício tem um usuário
 ---------------------------------------------------------------------------------------------
 
+Dependencias
+-Express, já vimos ali em cima
+-Cors, Cross Origin Resource Sharing, ajax request skip the same origin policy
+and access resources from remote hosts.
+-Moongose, também já vimos
+-DotEnv, nosso arquivo de config de environment, dados sensíveis.
+-Nodemon é nosso server node, que utilizamos pra development, ele restarta o server
+automaticamente quando salvamos algum arquivo.
+
+--------------------------------------------------------------------------------------------
