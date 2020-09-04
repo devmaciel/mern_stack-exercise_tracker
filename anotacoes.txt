@@ -1,0 +1,39 @@
+font: https://youtu.be/7CqJlxBYj-M
+cod: https://github.com/beaucarnes/mern-exercise-tracker-mongodb
+
+Introdução ao MERN (MongoDB, Express, React, Node)
+Conceitos de Database
+Começando com MongoDB Atlas
+Criando backend do 'exercise tracker app'
+Introdução ao React
+Criando frontend do 'exercise tracker app'
+Conectando o frontend com backend
+
+MongoDB: database tipo document-based (nosql)
+Express: Web Application framework do nodejs
+React: javascript frontend library pra buildar interfaces
+NodeJS: javascript run-time environment, que executa código javascript fora do browser,
+    como um servidor(backend)
+
+--Mongoose: schema-based pra fazer model do MongoDB.
+-----------------------------------------------------------------------------------------
+
+Diferença do SQL pra NOSQL 
+
+Database     --------  Database
+Table        --------  Collection
+Row          --------  Document 
+Index        --------  Index
+Join         --------  $lookup 
+Foreign Key  --------  Reference
+
+--------------------------------------------------------------------------------------------
+
+Exercise Tracker Application
+
+A Aplicação vai conter:
+--Exercicios
+--Usuário
+-Cada exercício tem um usuário
+---------------------------------------------------------------------------------------------
+
