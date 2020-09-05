@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 //Exercise Component
-const Exercise = props => {
+const Exercise = props => (
     <tr>
         <td>{props.exercise.username}</td>
         <td>{props.exercise.description}</td>
@@ -13,7 +13,7 @@ const Exercise = props => {
             <Link to={"/edit/"+props.exercise._id}>Edit</Link> | <a href="#" onClick={() => {props.deleteExercise(props.exercise._id) }}>Delete</a>
         </td>
     </tr>
-}
+)
 
 export default class ExercisesList extends Component {
 
@@ -27,17 +27,15 @@ export default class ExercisesList extends Component {
 
     }
 
-    componentDidMount(){
+    componentDidMount() {
         axios.get('http://localhost:5000/exercises/')
-            .then(response => {
-                this.setState({
-                    exercises: response.data
-                })
-            .catch((err) => {
-                console.log(err);
-            });
-        });
-    }
+          .then(response => {
+            this.setState({ exercises: response.data })
+          })
+          .catch((error) => {
+            console.log(error);
+          })
+      }
 
     deleteExercise(id) {
         axios.delete('http://localhost:5000/exercises/' + id)
