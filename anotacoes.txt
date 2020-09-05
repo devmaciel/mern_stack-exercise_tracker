@@ -45,7 +45,8 @@ and access resources from remote hosts.
 -DotEnv, nosso arquivo de config de environment, dados sensíveis.
 -Nodemon é nosso server node, que utilizamos pra development, ele restarta o server
 automaticamente quando salvamos algum arquivo.
-
+-Bootstrap, framework de frontend com alguns templates em html/css.
+-React-Router-Dom, facilita manipular url em diversos react componenents.
 --------------------------------------------------------------------------------------------
 
 Aqui na aula para testar API, as rotas get/post ele utiliza o insomnia por ser mais simples
@@ -71,3 +72,4 @@ POST http://localhost:5000/exercises/add
     }
 
 --------------------------------------------------------------------------------------------
+

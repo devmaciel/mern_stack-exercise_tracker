@@ -12,6 +12,9 @@
 #### Dependências
 
 ***frontend***
+> npm install bootstrap
+
+> npm install react-router-dom
 
 ***backend***
 > npm install express cors mongoose dotenv
