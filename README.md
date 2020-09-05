@@ -23,6 +23,8 @@
 
 > npm install -g nodemon OU npm install nodemon --save-dev
 
+> npm install axios
+
 <br>
 
 ###### para iniciar o servidor de desenvolvimento com nodemon
