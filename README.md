@@ -16,6 +16,8 @@
 
 > npm install react-router-dom
 
+> npm install react-datepicker
+
 ***backend***
 > npm install express cors mongoose dotenv
 
